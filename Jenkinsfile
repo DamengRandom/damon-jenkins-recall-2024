@@ -12,8 +12,8 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd app
-                pipx install fire@0.4.0
+                // cd app
+                // pip install fire@0.4.0
                 '''
             }
         }
