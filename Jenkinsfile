@@ -13,7 +13,8 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                pip install -r requirements.txt
+                // pip install -r requirements.txt // not working ..
+                apt install python3-fire@0.4.0
                 '''
             }
         }
