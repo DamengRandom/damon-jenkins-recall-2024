@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                sudo pip install fire@0.4.0
+                pip install fire@0.4.0
                 '''
             }
         }
