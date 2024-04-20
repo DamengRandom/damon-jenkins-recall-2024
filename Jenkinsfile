@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                // cd app
-                // pip install fire@0.4.0
+                echo Build stage triggered ..
                 '''
             }
         }
