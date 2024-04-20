@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                pip install fire@0.4.0
+                pipx install fire@0.4.0
                 '''
             }
         }
