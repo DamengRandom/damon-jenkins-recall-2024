@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                sudo apt install python3-fire@0.4.0
+                sudo pip install fire@0.4.0
                 '''
             }
         }
