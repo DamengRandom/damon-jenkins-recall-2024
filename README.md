@@ -25,3 +25,7 @@ Able to run Jenkins inside docker container (locally trials)
 - followed pipeline as code principle
 - represented by few sections, starts with pipeline { … }
 - use groovy syntax
+
+### Reference
+
+101 Session: https://github.com/devopsjourney1/jenkins-101
